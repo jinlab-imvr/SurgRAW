@@ -2,7 +2,7 @@
 
 The official repository for **SurgRAW**, a Chain-of-Thought-driven, multi-agent framework delivering transparent and interpretable insights for robotic-assisted surgery.
 
-> **Note:** The full codebase and dataset will be released soon.
+> **Note:** The full codebase and mcq dataset will be released soon.
 
 ---
 
