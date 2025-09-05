@@ -115,3 +115,5 @@ If you find this work useful, please cite our paper:
   journal={arXiv preprint arXiv:2503.10265},
   year={2025}
 }
+```
+Have fun with our work!
