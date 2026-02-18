@@ -16,7 +16,7 @@ _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Ma
 - 🎉 Accepted to *IEEE Robotics and Automation Letters (RA-L), 2026*
 - 📖 Early Access version available on IEEE Xplore
 - 🧠 SurgCoTBench dataset release coming soon
-- 
+
 ---
 
 ## 🔍 Overview
@@ -122,11 +122,20 @@ Each row produces a dedicated log file named like:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{low2025surgraw,
-  title={Surgraw: Multi-agent workflow with chain-of-thought reasoning for surgical intelligence},
-  author={Low, Chang Han and Wang, Ziyue and Zhang, Tianyi and Zeng, Zhitao and Zhuo, Zhu and Mazomenos, Evangelos B and Jin, Yueming},
-  journal={arXiv preprint arXiv:2503.10265},
-  year={2025}
-}
+@ARTICLE{11397309,
+  author={Low, Chang Han and Wang, Ziyue and Zhang, Tianyi and Zhuo, Zhu and Zeng, Zhitao and Mazomenos, Evangelos B. and Jin, Yueming},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={SurgRAW: Multi-Agent Workflow with Chain of Thought Reasoning for Robotic Surgical Video Analysis}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Cognition;Surgery;Instruments;Videos;Robots;Visualization;Reliability;Robot kinematics;Biomedical imaging;Accuracy;Robotic Surgery;Surgical Data Science;Agentic AI;Datasets for Robotic Vision},
+  doi={10.1109/LRA.2026.3665443}}
 ```
+
+## Acknowledgement
+This paper was recommended for publication by Editor Jessica Burgner-Kahrs upon evaluation of the Associate Editor and Reviewers' comments. This work was supported by Ministry of Education Tier 2 grant, Singapore (T2EP20224-0028), and Ministry of Education Tier 1 grant, Singapore (23-0651-P0001).
+
+---
 Have fun with our work!
