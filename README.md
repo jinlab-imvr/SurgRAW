@@ -1,9 +1,21 @@
-# SurgRAW:**Multi-Agent Workflow with Chain-of-Thought Reasoning for Surgical Intelligence**
+# SurgRAW
+### Multi-Agent Workflow with Chain-of-Thought Reasoning for Robotic Surgical Video Analysis
 
-The official repository for **SurgRAW**, a Chain-of-Thought-driven, multi-agent framework delivering transparent and interpretable insights for robotic-assisted surgery.
+[![IEEE RA-L 2026](https://img.shields.io/badge/IEEE-RA--L%202026-blue)]
+[![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3665443-green)]
 
-> **Note:** The full codebase and mcq dataset will be released soon.
+📄 **Published in IEEE Robotics and Automation Letters (2026)**  
+🔗 Early Access: https://ieeexplore.ieee.org/document/11397309  
+📌 DOI: 10.1109/LRA.2026.3665443  
 
+---
+
+## 🏆 News
+
+- 🎉 Accepted to *IEEE Robotics and Automation Letters (RA-L), 2026*
+- 📖 Early Access version available on IEEE Xplore
+- 🧠 SurgCoTBench dataset release coming soon
+- 
 ---
 
 ## 🔍 Overview
