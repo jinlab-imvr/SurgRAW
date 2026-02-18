@@ -21,7 +21,7 @@ _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Ma
 
 ## 🔍 Overview
 
-![SurgRAW architecture](Figures/SurgRAW.png)  
+![SurgRAW architecture](Figures/Surgraw.png)  
 
 SurgRAW employs **specialized prompts** and a **hierarchical orchestration system** across **five core surgical intelligence tasks**:
 
