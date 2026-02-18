@@ -1,5 +1,6 @@
-# SurgRAW
-### Multi-Agent Workflow with Chain-of-Thought Reasoning for Robotic Surgical Video Analysis
+# **[IEEE Robotics and Automation Letters 2026] SurgRAW: Multi-Agent Workflow with Chain-of-Thought Reasoning for Robotic Surgical Video Analysis**
+
+_Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Mazomenos, Yueming Jin_
 
 [![IEEE RA-L 2026](https://img.shields.io/badge/IEEE-RA--L%202026-blue)]
 [![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3665443-green)]
