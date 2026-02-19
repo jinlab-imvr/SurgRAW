@@ -21,11 +21,14 @@ def Patient_Detail_Agent(question, image_path, RetrievedContent):
         - The question has a chain-of-thought process that largely guide the generation of question-answer pairs: 
     
                 Patient Detail: asks about the illness, status, age, gender, or any identity-related information of the patient.
-                Chain 1: ...
-                ...
-                Chain N: ...
+                Chain 1: Deconstruct the question and identify key directives by first breaking down the question to identify specific patient-related details being asked (e.g., age, gender, illness, status). Highlight keywords that guide what to search for in the image (e.g., "What is the patient's status?" or "Identify the age and gender").
+                Chain 2: Analyze the image for critical evidence relevant to the question (e.g., patient monitors, labels, metadata, surgical annotations). Ignore irrelevant details (e.g., background elements or unrelated surgical tools).
+                Chain 3: Match the extracted visual details (e.g., demographic data, vitals) with the textual cues and answer choices and weigh each piece of evidence by its relevance to the question and its clarity in supporting or eliminating answer choices.
+                Chain 4: Rank the answer choices based on how well they align with the prioritized visual evidence and retrieved medical knowledge. Interpret any unclear or partial cues using domain knowledge to refine how strongly each option is supported.
+                Chain 5: Revisit the critical evidence and remove answer choices that conflict with the visual findings, procedural reasoning, or retrieved medical knowledge. Ensure the leading option remains logically and medically consistent.
+                Chain 6: Confirm that the selected option is the most strongly supported. Justify the selection by linking it explicitly to the image, retrieved medical knowledge and question directives.
                 The answer is: Option ()
-    
+          
     Generate a logical COT answer given the question below.
     
     However, in the chain of thought answer, do not use phrases like the description supports this by noting or the description mentioned or any other similar phrases.
