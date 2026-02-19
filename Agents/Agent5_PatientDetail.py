@@ -25,8 +25,8 @@ def Patient_Detail_Agent(question, image_path, RetrievedContent):
                 Chain 2: Analyze the image for critical evidence relevant to the question (e.g., patient monitors, labels, metadata, surgical annotations). Ignore irrelevant details (e.g., background elements or unrelated surgical tools).
                 Chain 3: Match the extracted visual details (e.g., demographic data, vitals) with the textual cues and answer choices and weigh each piece of evidence by its relevance to the question and its clarity in supporting or eliminating answer choices.
                 Chain 4: Rank the answer choices based on how well they align with the prioritized visual evidence and retrieved medical knowledge. Interpret any unclear or partial cues using domain knowledge to refine how strongly each option is supported.
-                Chain 5: Revisit the critical evidence and remove answer choices that conflict with the visual findings, procedural reasoning, or retrieved medical knowledge. Ensure the leading option remains logically and medically consistent.
-                Chain 6: Confirm that the selected option is the most strongly supported. Justify the selection by linking it explicitly to the image, retrieved medical knowledge and question directives.
+                Chain 5: Compare the retrieved medical knowledge, sub-question answers and procedural analysis with the multiple-choice options and eliminate options that contradict the procedural context, sub-question answers, visual evidence or the retrieved medical knowledge. Eliminate the option which contradict retrieved procedural norms and are inconsistent with the image or expected outcomes 
+                Chain 6: Select the answer that aligns most closely with the sub-question answers, image evidence, retrieved medical knowledge and procedural flow. Verify the final answer by re-checking key elements of the image and question to ensure no detail was overlooked.
                 The answer is: Option ()
           
     Generate a logical COT answer given the question below.
