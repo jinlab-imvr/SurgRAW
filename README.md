@@ -16,6 +16,7 @@ _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Ma
 
 - 🎉 Accepted to *IEEE Robotics and Automation Letters (RA-L), 2026*
 - 📖 Early Access version available on IEEE Xplore
+- 🚀 Full Code and COT released
 - 🧠 SurgCoTBench dataset release coming soon
 
 ---
