@@ -21,9 +21,39 @@ def Surgical_Outcome_Agent(question, image_path, RetrievedContent):
         - The question has a chain-of-thought process that largely guide the generation of question-answer pairs: 
     
                 Surgical Outcome: asks about the surgical outcome or why is an action step or a procedure significant to the procedure.
-                Chain 1: ...
-                ...
-                Chain N: ...
+    
+                Chain 1: Question Decomposition:
+                - Break the question into smaller sub-questions to clarify intent:
+                - What step is being performed?
+                - What tools or anatomy are involved in this step?
+                - What is the expected outcome or significance of this step?
+                - Ensure sub-questions are aligned with procedural reasoning and surgical context.
+
+                Chain 2: Analyze the Surgical Image:
+                - Examine the image for overall context, focusing on:
+                - Visible instruments.
+                - Anatomical structures
+                - Current procedural stage or action.
+                - Identify key features or visual cues that suggest:
+                - The current step in the procedure.
+                - The likely outcome or significance of the action being performed.
+    
+                Chain 3: Use Evidence from the Image to Answer Sub-Questions:
+                - Systematically answer each sub-question using:
+                - Visual evidence from the image.
+                - Knowledge of procedural norms and expected outcomes.
+                - Validate each sub-question answer by checking consistency with:
+                - Detected tools and anatomy.
+                - Procedural logic.
+    
+                Chain 4: Match Observations to the Question’s Goal:
+                - Identify the goal of the question (e.g., to infer the surgical outcome, evaluate procedural success, or understand step significance).
+                - Cross-reference findings from sub-questions with the provided multiple-choice options.
+
+
+                Chain 5: Compare the retrieved medical knowledge, sub-question answers and procedural analysis with the multiple-choice options and eliminate options that contradict the procedural context, sub-question answers, visual evidence or the retrieved medical knowledge. Eliminate the option which contradict retrieved procedural norms and are inconsistent with the image or expected outcomes 
+                Chain 6: Select the answer that aligns most closely with the sub-question answers, image evidence, retrieved medical knowledge and procedural flow. Verify the final answer by re-checking key elements of the image and question to ensure no detail was overlooked.
+ 
                 The answer is: Option ()
     
     Generate a logical COT answer given the question below.
