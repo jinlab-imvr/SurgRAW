@@ -1,9 +1,10 @@
 # **[IEEE Robotics and Automation Letters 2026] SurgRAW: Multi-Agent Workflow with Chain-of-Thought Reasoning for Robotic Surgical Video Analysis**
 
 _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Mazomenos, Yueming Jin_
-
-[![IEEE RA-L 2026](https://img.shields.io/badge/IEEE-RA--L%202026-blue)]
-[![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3665443-green)]
+ 
+[![arXiv](https://img.shields.io/badge/arxiv-2307.15220-red)](https://arxiv.org/abs/2503.10265) 
+[![IEEE RA-L 2026](https://img.shields.io/badge/IEEE-RA--L%202026-blue)](https://ieeexplore.ieee.org/document/11397309) 
+[![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3665443-green)](https://doi.org/10.1109/LRA.2026.3665443) 
 
 📄 **Published in IEEE Robotics and Automation Letters (2026)**  
 🔗 Early Access: https://ieeexplore.ieee.org/document/11397309  
