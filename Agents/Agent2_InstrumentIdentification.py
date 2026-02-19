@@ -17,11 +17,51 @@ def Instrument_Recognition_Agent(question, image_path):
         - The question has a chain-of-thought process that largely guide the generation of question-answer pairs: 
     
                 Instrument Recognition: asks about the name or identity of a surgical tool.
-                Chain 1: ...
-                ...
-                Chain N: ...
-                The answer is: Option ()
-    
+                Chain 1: Identify the Specific Instrument-Related Question.
+                    - Clarify the focus of the question: Is the instrument gripping, cutting, stabilizing, or performing another function?
+                    - Highlight clues from the question or surgical context (e.g., "gripping tissue," "securing").
+                Chain 2.1: Localize the Instrument.
+                    - Focus on the visible portions of the instrument, even if partially obscured.
+                    - Identify adjacent landmarks (e.g., tissue, robotic arms) to infer the instrument's position and role.
+                Chain 2.2: Extract Key Features Beyond Tip Shape.
+                    - Analyze visible features of the instrument with less emphasis on tip shape:
+                    1. Jaw Configuration: Are the jaws open, closed, or angled?
+                    2. Surface Details: Look for smooth edges, serrations, or textured gripping surfaces.
+                    3. Shaft and Mechanism: Assess if the instrument's design indicates gripping, cutting, or holding (e.g., straight shafts for gripping tools).
+                Chain 2.3: Infer Missing Details.
+                    - Use the surgical context and instrument's role to infer obscured features:
+                    - Forceps: Likely have serrated, flat jaws for gripping.
+                    - Scissors: Typically have sharp, cutting blades.
+                    - Needle Drivers: Feature small, precise serrations for suturing.
+                Chain 3.1: Evaluate Functional Context.
+                    - Assess the instrument’s interaction with tissue:
+                    - Cutting (e.g., linear or slicing motion) suggests Scissors or Cautery Hook.
+                    - Gripping (e.g., clamping or stabilizing tissue) suggests Forceps or Needle Driver.
+                Chain 3.2: Ambiguity Resolution Beyond Tip Shape
+                    1. Forceps vs. Monopolar Curved Scissors:
+                    - Forceps: Serrated, flat jaws designed for gripping.
+                    - Scissors: Smooth, sharp edges for cutting.
+                    - If motion data is unavailable, use functional context (gripping vs. cutting) to differentiate.
+                    2. Forceps vs. Needle Driver:
+                    - Needle Drivers: Have precise serrations designed for holding needles during suturing.
+                    - Forceps: More general-purpose jaws for tissue manipulation.
+                Chain 3.3: Cross-Verify Functional and Visual Cues
+                    - Correlate visible features with the instrument's expected function in the procedure.
+                    - Reassess the tool’s role based on:
+                    - Interaction with tissue.
+                    - Surrounding tools or landmarks.
+                Chain 4: Match Features and Eliminate Implausible Options
+                    - Use visible features and inferred details to rule out unlikely options:
+                    - Stapler: Requires visible cartridges or stapling mechanism.
+                    - Cautery Hook: Requires a distinctive hooked tip.
+                    - Clip Applier: Requires visible clips or clip-loading mechanism.
+                Chain 5: Final Verification and Answer Selection
+                    - Perform a final cross-check by weighing:
+                    1. Visual features (beyond tip shape).
+                    2. Functional context of the instrument in the surgical step.
+                    - Select the option that aligns with all observations.
+                    The answer is: Option ()
+        
     Generate a logical COT answer given the question below.
     
     However, in the chain of thought answer, do not use phrases like the description supports this by noting or the description mentioned or any other similar phrases.
