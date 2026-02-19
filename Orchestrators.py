@@ -3,10 +3,10 @@ import sys
 import logging
 from Utils.API_utils import call_gpt35Turbo_api
 from Agents.Agent1_ActionRecognition import Action_Recognition_Agent
-from Agents.Agent2_ActionPrediction import Action_Prediction_Agent
-from Agents.Agent4_InstrumentIdentification import Instrument_Recognition_Agent
-from Agents.Agent5_SurgicalOutcome import Surgical_Outcome_Agent
-from Agents.Agent6_PatientDetail import Patient_Detail_Agent
+from Agents.Agent2_InstrumentIdentification import Instrument_Recognition_Agent
+from Agents.Agent3_ActionPrediction import Action_Prediction_Agent
+from Agents.Agent4_SurgicalOutcome import Surgical_Outcome_Agent
+from Agents.Agent5_PatientDetail import Patient_Detail_Agent
 from Agents.RAG_module import query_rag
 from Agents.GP_Moderator import multi_agent_debate
 
