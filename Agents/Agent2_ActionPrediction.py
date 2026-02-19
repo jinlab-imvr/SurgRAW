@@ -20,7 +20,7 @@ def Action_Prediction_Agent(question, image_path, RetrievedContent):
         - When generating the answer, approach the question carefully, as a surgeon or lecturer would, and list the key considerations and reasoning required to arrive at a well-supported conclusion.
         - The question has a chain-of-thought process that largely guide the generation of question-answer pairs: 
     
-                Surgical plan: asks about a possible future step or procedural steps, predicting the next step after the completion of the current phase.
+                Action Prediction: asks about a possible future step or procedural steps, predicting the next step after the completion of the current phase.
                 Chain 1: Engage in question decomposition by breaking the question into smaller sub-questions, such as What step is currently being performed? , What tools or anatomy are involved in this step? , What is the expected outcome of this step?. Ensure sub-questions align with procedural reasoning.
                 Chain 2: Analyze the surgical image for overall context, including visible instruments, anatomy, and current procedural stage. Identify key features or visual clues that suggest the current action or progress in the procedure.
                 Chain 3: Use evidence from the image to answer each sub-question systematically and validate each sub-question answer against the surgical context (e.g., tool usage, anatomy focus, procedural norms).
