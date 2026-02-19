@@ -21,10 +21,14 @@ def Action_Prediction_Agent(question, image_path, RetrievedContent):
         - The question has a chain-of-thought process that largely guide the generation of question-answer pairs: 
     
                 Surgical plan: asks about a possible future step or procedural steps, predicting the next step after the completion of the current phase.
-                Chain 1: ...
-                ...
-                Chain N:...
+                Chain 1: Engage in question decomposition by breaking the question into smaller sub-questions, such as What step is currently being performed? , What tools or anatomy are involved in this step? , What is the expected outcome of this step?. Ensure sub-questions align with procedural reasoning.
+                Chain 2: Analyze the surgical image for overall context, including visible instruments, anatomy, and current procedural stage. Identify key features or visual clues that suggest the current action or progress in the procedure.
+                Chain 3: Use evidence from the image to answer each sub-question systematically and validate each sub-question answer against the surgical context (e.g., tool usage, anatomy focus, procedural norms).
+                Chain 4: Analyze the broader procedural context implied by the question and the sub-question answers. specifically mentioned "Cross referencing with the retrieved medical knowledge" when cross-reference findings with retrieved medical knowledge. You may also cross reference knowledge of typical surgical plans or the provided context.
+                Chain 5: Compare the retrieved medical knowledge, sub-question answers and procedural analysis with the multiple-choice options and eliminate options that contradict the procedural context, sub-question answers, visual evidence or the retrieved medical knowledge. Eliminate the option which corresponds to the current ongoing surgical phase. 
+                Chain 6: Select the answer that aligns most closely with the sub-question answers, image evidence, retrieved medical knowledge and procedural flow. Verify the final answer by re-checking key elements of the image and question to ensure no detail was overlooked.
                 The answer is: Option ()
+
     
     Generate a logical COT answer given the question below.
     
