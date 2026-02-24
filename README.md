@@ -119,6 +119,23 @@ Each row produces a dedicated log file named like:
 
 ---
 
+## 🎥 Video Demo
+
+We provide a full demonstration of the **SurgRAW multi-agent orchestration pipeline** in action.
+
+<p align="center">
+  <video width="90%" controls>
+    <source src="https://raw.githubusercontent.com/jinlab-imvr/SurgRAW/main/Video_Demo/SurgRAW_GitDemo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p align="center">
+  <em>End-to-end execution of SurgRAW demonstrating multi-agent coordination and Chain-of-Thought reasoning.</em>
+</p>
+
+---
+
 ## 📚 Citation
 
 If you find this work useful, please cite our paper:
