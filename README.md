@@ -125,13 +125,12 @@ We provide a full demonstration of the **SurgRAW multi-agent orchestration pipel
 
 <p align="center">
   <video width="90%" controls>
-    <source src="https://raw.githubusercontent.com/jinlab-imvr/SurgRAW/main/Video_Demo/SurgRAW_GitDemo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+    <source src="https://github.com/jinlab-imvr/SurgRAW/releases/download/v1.0/SurgRAW_Video.mp4" type="video/mp4">
   </video>
 </p>
 
 <p align="center">
-  <em>End-to-end execution of SurgRAW demonstrating multi-agent coordination and Chain-of-Thought reasoning.</em>
+  <em>End-to-end execution of SurgRAW demonstrating structured Chain-of-Thought reasoning and multi-agent coordination.</em>
 </p>
 
 ---
