@@ -2,13 +2,15 @@
 
 _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Mazomenos, Yueming Jin_
  
-[![arXiv](https://img.shields.io/badge/arxiv-2307.15220-red)](https://arxiv.org/abs/2503.10265) 
+[![arXiv](https://img.shields.io/badge/arXiv-2503.10265-red)](https://arxiv.org/abs/2503.10265)
 [![IEEE RA-L 2026](https://img.shields.io/badge/IEEE-RA--L%202026-blue)](https://ieeexplore.ieee.org/document/11397309) 
 [![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3665443-green)](https://doi.org/10.1109/LRA.2026.3665443) 
-
+[![Dataset](https://img.shields.io/badge/Hugging%20Face-SurgCOTBench-yellow)](https://huggingface.co/datasets/FatNinjaaaaa/SurgCOTBench)
+  
 📄 **Published in IEEE Robotics and Automation Letters (2026)**  
 🔗 Early Access: https://ieeexplore.ieee.org/document/11397309  
 📌 DOI: 10.1109/LRA.2026.3665443  
+🤗 Dataset: https://huggingface.co/datasets/FatNinjaaaaa/SurgCOTBench
 
 ---
 
@@ -17,7 +19,7 @@ _Chang Han Low, Ziyue Wang, Tianyi Zhang, Zhuo Zhu, Zhitao Zeng, Evangelos B. Ma
 - 🎉 Accepted to *IEEE Robotics and Automation Letters (RA-L), 2026*
 - 📖 Early Access version available on IEEE Xplore
 - 🚀 Full Code and COT released
-- 🧠 SurgCoTBench dataset release coming soon
+- 🤗 SurgCOTBench dataset released on Hugging Face: https://huggingface.co/datasets/FatNinjaaaaa/SurgCOTBench
 
 ---
 
